@@ -9,13 +9,13 @@
 <body>
      <header>
         <p class="logo">LOJA <span>CITY</span></p>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <nav> <!--links navegáveis-->
+            <ul> <!--lista não ordenada--> <!--recebe display flex e list-style none-->
+                <li><a href="#">Home</a><!--recebe text-decoration none para tirar o sublinhado--></li> <!--item de lista--> <!--recebe padding para espaçar horizontamente-->
+                <li><a href="#">Produtos</a></li> <!--item de lista--> <!--recebe padding para espaçar horizontamente-->
+                <li><a href="#">Contato</a></li> <!--item de lista--><!--recebe padding para espaçar horizontamente-->
+            </ul> <!--fim da lista nçao ordenada-->
+        </nav> <!--fim dos links navegáveis-->
         <div class="carrinho">
             <span id="carrinho-contador">Items: 0</span>
         </div>
@@ -23,10 +23,10 @@
 
      <main id="container">
         <h2>Produtos em Destaque</h2>
-        <section class="card">
+        <section class="card"> <!--recebe display grid, grid-template-columns repeat e gap-->
             <div class="card-game">
                 <img src="./src/assets/imagem.jpg" alt="Produto">
-                <article class="card-content">
+                <article class="card-content"> <!--recebe text align center para centralizar-->
                     <h3>Produto 1</h3>
                     <p class="preco">R$ 150,00</p>
                     <button class="btn-comprar">Comprar</button>

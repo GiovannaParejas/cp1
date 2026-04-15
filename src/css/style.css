@@ -107,7 +107,7 @@ nav ul li a:hover {
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: pointer; /* qual tipo de cursor o mouse fica com o botão está em hover"*/
     width: 50%;
     font-weight: 700;
     transition: 0.3s;
@@ -116,5 +116,5 @@ nav ul li a:hover {
 .btn-comprar:hover {
     background: var(--text-color);
     color: var(--btn-color);
-    transform: scale(1.2);
+    transform: scale(1.2); /*aumenta em 1.2 o botão while hovering*/
 }
